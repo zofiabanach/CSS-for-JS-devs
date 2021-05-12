@@ -3,7 +3,9 @@
   padding-bottom: 64px;
 }
 
-.maxWidthWrapper {}
+.maxWidthWrapper {
+  position: relative;
+}
 
 .header {
   padding-bottom: 64px;
@@ -33,4 +35,13 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.grayBackground {
+  position: fixed;
+  bottom: 0px;
+  background-color: hsl(195deg, 20%, 86%);
+  height: 40%;
+  width: 100%;
+  z-index: 0;
 }
